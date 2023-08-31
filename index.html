@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>영상박물관</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/jquery-1.12.3.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<body>
+
+
+
+    <!-- Header -->
+    <header>
+        <div class="top">
+            <div class="logo">
+                <a href="#"><img src="img/logo.png" alt="로고1"></a>
+            </div>
+            <nav class="menu">
+                <ul class="navi">
+
+                    <li>
+                        <a href="#">박물관 소개</a>
+                        <ul class="submenu">
+                            <li><a href="#">인사말</a></li>
+                            <li><a href="#">박물관연혁</a></li>
+                            <li><a href="#">박물관 조직도</a></li>
+                            <li><a href="#">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">전시</a>
+                        <ul class="submenu">
+                            <li><a href="#">전시 리스트</a></li>
+                            <li><a href="#">전시일정</a></li>
+                            <li><a href="#">특별전</a></li>
+                            <li><a href="#">지역작가</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">체험행사</a>
+                        <ul class="submenu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#">문화행사</a></li>
+                            <li><a href="#">진로체험</a></li>
+                            <li><a href="#">명사특강</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">커뮤니티</a>
+                        <ul class="submenu">
+                            <li><a href="#"></a></li>
+                            <li><a href="#">사용자메뉴얼</a></li>
+                            <li><a href="#">박물관 약도</a></li>
+                            <li><a href="#">게시판</a></li>
+                        </ul>
+                    </li>
+
+                </ul>
+            </nav>
+
+            <!-- 로그인/회원가입 -->
+            <div class="spotmenu">
+                <ul>
+                    <li class="spotmenu_btn"><a href="#">로그인</a></li>
+                    <div>|</div>
+                    <li class="spotmenu_btn"><a href="#">회원가입</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- Contents -->
+    <div class="contents">
+
+        <div class="banner">
+            <a href="#"><img src="img/banner.jpg" alt="배너"></a>
+            <div class="bntitle">
+                Lorem ipsum dolor sit amet.
+                <br>
+                <span>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsam, maiores?</span>
+            </div>
+            <div class="bnimg">
+                <a href="#"><img src="img/arrow.jpg" alt="화살표"></a>
+            </div>
+        </div>
+
+        <div class="notice">
+            <div class="ngtitle">공지사항</div>
+            <div class="line"></div>
+            <ul>
+
+                <li>
+                    <a href="#">
+                        영상박물관 휴관 연장 안내(3/01~3/11)
+                        <span>2022.03.01</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Lorem ipsum dolor sit amet.
+                        <span>2022.03.01</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Lorem ipsum dolor sit amet.
+                        <span>2022.03.01</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Lorem ipsum dolor sit amet.
+                        <span>2022.03.01</span>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+        <div class="gallery">
+            <div class="ngtitle">갤러리</div>
+            <div class="line"></div>
+            <ul>
+
+                <li>
+                    <a href="#"><img src="img/gallery1.jpg" alt="갤러리1"></a>
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </li>
+                <li>
+                    <a href="#"><img src="img/gallery2.jpg" alt="갤러리2"></a>
+                    <span>Lorem ipsum dolor sit amet.</span>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+
+
+
+    <!-- Modal layer(팝업창) -->
+    <div id="layer">
+        <div class="layer-up">
+            <div class="uptitle">
+                영상박물관 휴관 연장 안내(3/01~3/11)
+            </div>
+            <div class="upbody">
+                안녕하세요. 영상박물관입니다. <br>
+                새로운 전시 준비를 위한 휴관이 일주일 연장되었습니다. <br>
+                아래의 기간 동안 휴관하오니 이용에 참고하시기 바랍니다. <br>
+                <br>
+                - 휴관기간 - <br>
+                2022년 3월 1일(화)~2022년 3월 11일(목) <br>
+                <br>
+                변동 사항 발생 시 다시 알려드리겠습니다. <br>
+                감사합니다. <br>
+            </div>
+            <div class="btn">닫기</div>
+        </div>
+    </div>
+
+
+    <!-- Slide(이미지) -->
+    <div class="imgslide">
+        <a href="#">
+            <img src="img/img1.jpg" alt="이미지1">
+            <span class="imgtext">영화 이야기</span>
+        </a>
+        <a href="#">
+            <img src="img/img2.jpg" alt="이미지2">
+            <span class="imgtext">영상의 탄생</span>
+        </a>
+        <a href="#">
+            <img src="img/img3.jpg" alt="이미지3">
+            <span class="imgtext">영상의 역사</span>
+        </a>
+    </div>
+
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="btlogo">
+
+            <a href="#"><img src="img/ftlogo.jpg" alt="하단로고"></a>
+        </div>
+        <div class="copy">
+            <span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet possimus rem cum optio animi velit
+                adipisci perferendis ab dolorum. Amet, delectus distinctio nulla,
+            </span>
+            <br>
+            <span>sapiente! Quas, consequuntur sed harum ipsam ea corporis nostrum! Quam accusantium minima deleniti
+                inventore facilis omnis animi culpa.
+            </span>
+        </div>
+        <div class="sns">
+            <a href="#"><img src="img/sns1.jpg" alt="sns1"></a>
+            <a href="#"><img src="img/sns2.jpg" alt="sns2"></a>
+            <a href="#"><img src="img/sns3.jpg" alt="sns3"></a>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
